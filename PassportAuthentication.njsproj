@@ -42,6 +42,9 @@
     <Content Include="views\index.pug" />
     <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
+    <Content Include="views\users.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\register.pug" />
     <Content Include="views\login.pug">
       <SubType>Code</SubType>

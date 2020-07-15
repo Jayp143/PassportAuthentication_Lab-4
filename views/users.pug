@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  main
+      if(articles && articles.length)
+        table
+            thead
+                th Id
+                th Users
+            tbody
+                each article in articles
+                    tr
+                        td= article.id
+                        td= article.username
+      else
+        h1 No Users!
+    

@@ -13,7 +13,9 @@ var bcrypt = require('bcryptjs');
 const MongoClient = require('mongodb').MongoClient;
 const MongoStore = require('connect-mongo')(session);
 var mongoose = require('mongoose');
-const uri = "mongodb+srv://jacob:123@cluster0-dxtpg.mongodb.net/user?retryWrites=true&w=majority";
+//const uri = "mongodb+srv://jacob:123@cluster0-dxtpg.mongodb.net/user?retryWrites=true&w=majority";
+const uri = "mongodb+srv://jaypatel:123@cluster0.lwliq.mongodb.net/users?retryWrites=true&w=majority";
+
 //Connect to our database
 try {
     mongoose.connect(uri, { useNewUrlParser: true });
